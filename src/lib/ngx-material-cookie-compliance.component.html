@@ -1,0 +1,10 @@
+<div class="ngx-material-cookie-compliance-container">
+  <mat-card class="ngx-material-cookie-compliance" *ngIf="showCC" [@fadeToBottom]>
+    <span class="ngx-material-cookie-compliance-text">{{ getText() }}</span>
+    <div>
+      <button class="ngx-material-cookie-compliance-button" mat-button (click)="openLink()">{{ getButtonText() }}
+      </button>
+      <button mat-raised-button color="accent" (click)="discard()">{{ getCloseText() }}</button>
+    </div>
+  </mat-card>
+</div>

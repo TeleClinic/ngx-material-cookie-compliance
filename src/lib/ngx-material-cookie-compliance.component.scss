@@ -1,0 +1,33 @@
+.ngx-material-cookie-compliance-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.ngx-material-cookie-compliance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+  }
+}
+
+.ngx-material-cookie-compliance-text {
+  @media only screen and (min-width: 900px) {
+    max-width: 60%;
+  }
+  @media only screen and (max-width: 900px) {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+.ngx-material-cookie-compliance-button {
+  margin-right: 1rem;
+}
