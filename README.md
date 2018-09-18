@@ -7,8 +7,6 @@ Cookie compliance bar for Angular projects in Material Design
 npm install --save ngx-material-cookie-compliance
 ```
 
-<<<<<<< HEAD
-=======
 Import the module in your app.module.ts
 
 ```
@@ -38,14 +36,12 @@ Add the selector to your app.component.html
 <ngx-material-cookie-compliance></ngx-material-cookie-compliance>
 ```
 
->>>>>>> 91c19802c44f60b12ce528ca4e6fc8426cd88d51
 ## Features
 - Multi language support (en/de/es/fr/it)
 - Custom text for every button and message
 - Full Angular Material Design
 
-<<<<<<< HEAD
-=======
+
 ## Dependencies
 - @angular/animations
 - @angular/cdk
@@ -70,4 +66,3 @@ Tested with version 6
 
 ## License
 MIT
->>>>>>> 91c19802c44f60b12ce528ca4e6fc8426cd88d51
