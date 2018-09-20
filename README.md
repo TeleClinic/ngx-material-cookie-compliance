@@ -1,6 +1,8 @@
 # ngx-material-cookie-compliance
 Cookie compliance bar for Angular projects in Material Design
 
+![alt text](https://raw.githubusercontent.com/JunusErgin/ngx-material-cookie-compliance/master/image.png)
+
 
 ## Getting started
 ```
