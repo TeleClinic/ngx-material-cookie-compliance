@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { fadeToBottom } from './ngx-material-cookie-compliance.animations';
 
 const TEXT_EN = 'This website uses cookies to improve user experience. By continuing to use the website, you are granting your consent.';
-const TEXT_DE = 'Wir verwenden Cookies, um Ihnen eine Bessere Nutzerfreundlichkeit zu bieten. Durch die Nutzung dieser Website stimmen Sie dem zu.';
+const TEXT_DE = 'Wir verwenden Cookies, um Ihnen eine bessere Nutzerfreundlichkeit zu bieten. Durch die Nutzung dieser Website stimmen Sie dem zu.';
 const TEXT_FR = 'Ce site Web utilise des cookies pour améliorer la convivialité. En continuant à utiliser le site Web, vous y consentez.';
 const TEXT_ES = 'Este sitio web utiliza cookies para mejorar la facilidad de uso. Al continuar usando el sitio web, usted da su consentimiento para ello.';
 const TEXT_IT = 'Questo sito web utilizza i cookie per migliorare la facilità d\'uso. Continuando a utilizzare il sito web, l\'utente acconsente a questo.';
