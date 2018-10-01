@@ -1,4 +1,4 @@
-<div class="ngx-material-cookie-compliance-container">
+<div class="ngx-material-cookie-compliance-container" [style.z-index]="zIndex">
   <mat-card class="ngx-material-cookie-compliance" *ngIf="showCC" [@fadeToBottom]>
     <span class="ngx-material-cookie-compliance-text">{{ getText() }}</span>
     <div>
