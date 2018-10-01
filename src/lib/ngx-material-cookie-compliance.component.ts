@@ -36,6 +36,7 @@ export class NgxMaterialCookieComplianceComponent implements OnInit {
     @Input() targetURL = 'https://google.com';
     @Input() embedCookieCompliance = true;
     @Input() delay = 3000;
+    @Input() zIndex = 1001;
     showCC: boolean;
 
     constructor() {
